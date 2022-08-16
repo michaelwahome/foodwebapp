@@ -1,4 +1,4 @@
-#The Burger Joint Online Ordering System
+# The Burger Joint Online Ordering System
 
 This is a web application that allows customers to login order food from The Burger Joint (a fictional restaurant) via the internet. It also allows administrators to view and manipulate various system information from the backend, such as the items on the menu and the orders made by various users.
 
