@@ -1,0 +1,1 @@
+This is a web app that I created to allow customers to order food from The Burger Joint (a fictional restaurant) via the internet. It is an individual project that was a part of my coursework for Web Application Development, a second year unit in my Bachelor's of Informatics and Computer Science course. It is made using PHP and is yet to be completed.

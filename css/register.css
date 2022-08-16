@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;    
+    background-image: linear-gradient(to top right, cadetblue, lightgreen);
+    height: 100%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    height: 70%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 40% auto; 
+    background: none;
+    margin: 2em auto;
+}
+
+.wall{
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/registerburger.jpg");
+    background-color: white;
+    border-radius: 30px 0 0 30px;
+}
+
+.wall h2{
+    text-align: center;
+    padding-top: 4em;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.logo{
+    color: grey;
+    text-align: center;
+}
+
+.register-container{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+    margin: 0 auto;
+    backdrop-filter: blur(40px);
+    border-radius: 0 30px 30px 0;
+}
+
+.register-container h1{
+    text-align: center;
+    color: cadetblue;
+    font-size: 3em;
+}
+
+.details{
+    margin: 0 2em;
+    height: 35%;
+}
+
+.detail-item{
+    margin-bottom: 1em;
+}
+
+.input{
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    height: 30px;
+    margin-top: .2em;
+    outline: none;
+    padding: .5em;
+    font-size: 1em;
+}
+
+.cta{
+    margin-top: 2em;
+}
+
+.cta-button{
+    color: white;
+    background-color: rgb(0, 204, 255);
+    border: none;
+    padding: .6em;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 8em;
+}
+
+.cta-button:hover{
+    cursor: pointer;
+    width: 45%;
+    color: white;
+    margin-left: 7.35em;
+    font-weight: bold;
+}
+
+.links{
+    margin: 2em 0;
+    color: cadetblue;
+    text-align: center;
+}
+
+.links a{
+    text-decoration: underline;
+}
+
+.links a:hover{
+    background-color: cadetblue;
+    border-radius: 20px;
+    color: white;
+    padding: .5em .8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin-register-cta{
+    margin-bottom: 2em;
+}
+
+.admin-priority{
+    height: 40px;
+}
